@@ -9,9 +9,9 @@ from fastai import *
 from fastai.vision import *
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-C5Hnlos6Ii0XGtqKdlk0_Vqhg1LVbOM'
-export_file_name = 'export.pkl'
+export_file_name = 'isl_regular1.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 path = Path(__file__).parent
 
 app = Starlette()
